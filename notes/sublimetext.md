@@ -1,4 +1,27 @@
 # Sublime Text3
 
-1. 安装完成后，将用户目录下的sublime text3文件删除，然后在安装目录新建```Data```文件夹，启动sublime。
-2. 设置环境变量，将安装目录添加到```path```环境下,这样可以使用```subl```命令来打开sublime。
+## 安装与配置
+
+1. 安装完成后，将用户目录下的sublime text3文件删除，然后在安装目录新建```Data```文件夹，启动sublime。（备份）
+2. 设置环境变量，将安装目录添加到```path```环境下,这样可以使用```subl```命令来打开sublime。(```subl .```)
+3. windows输入法问题，将 https://github.com/zcodes/IMESupport.git 克隆```\Data\Packages```文件夹下。
+4. 安装Package Control，https://packagecontrol.io/installation 。
+5. 
+
+## 插件
+
+**https://packagecontrol.io/**
+
+* SublimeTextTrans
+* 
+
+
+
+
+
+
+
+## 快捷键
+
+1. <kbd>Ctrl</kbd> + <kbd>p</kbd>
+2. <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>
