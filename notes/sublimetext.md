@@ -44,8 +44,9 @@
 6. <kbd>Ctrl+Shift+p</kbd> -- 命令面板
 7. <kbd>Ctrl+`</kbd> -- 打开控制台
 8. <kbd>Alt+Shift+(1-5)</kbd> -- 分屏
-9. <kbd></kbd> --
-10. <kbd></kbd> --
+9. <kbd>Ctrl(+、-)</kbd> -- 字体放大缩小
+10. <kbd>Ctrl+k+b</kbd> -- 开、关侧边栏
+<br>
 
 1. <kbd></kbd>
 2. <kbd></kbd>
