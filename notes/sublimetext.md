@@ -10,7 +10,7 @@
 
 ## 插件
 
-**https://packagecontrol.io/**
+- **https://packagecontrol.io/**
 
 - SublimeTextTrans -- <kbd>Ctrl+Shift+(1-6)</kbd> 调节透明度
 - A File Icon -- 文件图标
