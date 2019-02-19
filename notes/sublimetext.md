@@ -70,4 +70,4 @@
 7. <kbd>Ctrl+(←、→)</kbd> -- 单位性的移动光标
 8. <kbd>Ctrl+;</kbd> -- 查找变量名、文件名
 9. <kbd>Alt+.</kbd> -- 闭合当前标签
-10. <kbd>Ctrl+Shift+l</kbd> -- 在选择多行后添加
+10. <kbd>Ctrl+Shift+l</kbd> -- 在每一行后进行添加
