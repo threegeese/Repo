@@ -12,13 +12,13 @@
 
 **https://packagecontrol.io/**
 
-* SublimeTextTrans
+* SublimeTextTrans -- <kbd>Ctrl+Shift+(1-6)</kbd> 调节透明度
+* A File Icon -- 文件图标
+* Agila -- 主题
+* Ayu -- 主题
+
+* Terminal -- <kbd>Ctrl+Shift+t</kbd> 打开终端
 * 
-
-
-
-
-
 
 
 ## 快捷键
