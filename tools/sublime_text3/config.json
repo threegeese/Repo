@@ -1,3 +1,4 @@
+// User Setting
 {
     "color_scheme": "Packages/Agila Theme/Agila Classic Oceanic Next.tmTheme",
     "font_size": 11,
@@ -10,3 +11,11 @@
     "translate_tabs_to_spaces": true,
     "update_check": false
 }
+
+//Terminal Setting
+{
+  "terminal": "D:\\cmder\\Cmder.exe",
+  "parameters": ["/START", "%CWD%"]
+}
+
+//
