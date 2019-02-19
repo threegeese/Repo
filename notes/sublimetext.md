@@ -10,14 +10,14 @@
 
 ## 插件
 
-		- **https://packagecontrol.io/**
+- **https://packagecontrol.io/**
+<br>
 
 - SublimeTextTrans -- <kbd>Ctrl+Shift+(1-6)</kbd> 调节透明度
 - A File Icon -- 文件图标
 - Agila -- 主题
 - Ayu -- 主题
 <br>
-
 - Terminal -- <kbd>Ctrl+Shift+t</kbd> 打开终端
 ```Json
 {
@@ -25,6 +25,7 @@
   "parameters": ["/START", "%CWD%"]
 }
 ```
+- 
 
 
 ## 快捷键
