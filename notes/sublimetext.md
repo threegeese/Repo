@@ -36,10 +36,10 @@
 
 ## 快捷键
 
-1. <kbd>F11</kbd> -- 全屏
-2. <kbd>F6</kbd> -- 检测拼写
-3. <kbd>Shift+F11</kbd> -- 加强版全屏
-4. <kbd>Alt</kbd> -- 显示菜单
+0. <kbd>F11</kbd> -- 全屏
+1. <kbd>F6</kbd> -- 检测拼写
+2. <kbd>Shift+F11</kbd> -- 加强版全屏
+3. <kbd>Alt</kbd> -- 显示菜单
 5. <kbd>Ctrl+p</kbd> -- 搜索文件，可搭配```@、:、#```使用
 6. <kbd>Ctrl+Shift+p</kbd> -- 命令面板
 7. <kbd>Ctrl+`</kbd> -- 打开控制台
@@ -48,11 +48,26 @@
 10. <kbd>Ctrl+k+b</kbd> -- 开、关侧边栏
 <br>
 
-1. <kbd></kbd>
-2. <kbd></kbd>
-3. <kbd></kbd>
-4. <kbd></kbd>
-5. <kbd></kbd>
-6. <kbd></kbd>
-7. <kbd></kbd>
-8. <kbd></kbd>
+1. <kbd>Ctrl+d</kbd> -- 选中单词
+2. <kbd>Ctrl+l</kbd> -- 选中行
+3. <kbd>Ctrl+Shift+(↑、↓)</kbd> -- 上下移动，默认当前行
+4. <kbd>Ctrl+x</kbd> -- 删除当前行
+5. <kbd>Ctrl+Shift+m</kbd> -- 选择当前括号内容
+6. <kbd>Ctrl+Shift+Enter</kbd> -- 往上插入行
+7. <kbd>Ctrl+/</kbd> -- 注释当前行
+8. <kbd>Alt+F3</kbd> -- 选择所有相同的词
+9. <kbd>Ctrl+鼠标选取</kbd> -- 选择多个指定位置
+10. <kbd>Shift+方向键</kbd> -- 指定选取
+11. <kbd>Ctrl+Shift+d</kbd> -- 向下复制
+<br>
+
+1. <kbd>Ctrl+f</kbd> -- 查找
+2. <kbd>Ctrl+h</kbd> -- 替换
+3. <kbd>Ctrl+g+指定数字</kbd> -- 光标跳转到指定行
+4. <kbd>Ctrl+j</kbd> -- 行合并
+5. <kbd>Ctrl+g</kbd> -- html的id、JavaScript的方法定位
+6. <kbd>Ctrl+k+k</kbd> -- 删除光标后的内容
+7. <kbd>Ctrl+(←、→)</kbd> -- 单位性的移动光标
+8. <kbd>Ctrl+;</kbd> -- 查找变量名、文件名
+9. <kbd>Alt+.</kbd> -- 闭合当前标签
+10. <kbd>Ctrl+Shift+l</kbd> -- 在选择多行后添加
