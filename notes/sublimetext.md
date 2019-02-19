@@ -6,7 +6,7 @@
 2. 设置环境变量，将安装目录添加到```path```环境下,这样可以使用```subl```命令来打开sublime。(```subl .```)
 3. windows输入法问题，将 https://github.com/zcodes/IMESupport.git 克隆```\Data\Packages```文件夹下。
 4. 安装Package Control，https://packagecontrol.io/installation 。
-5. 
+5. 在sublime text中将<kbd>TAB</kbd>缩进直接转化为4个空格。（```"tab_size": 4,"translate_tabs_to_spaces": true```）
 
 ## 插件
 
@@ -17,6 +17,7 @@
 - A File Icon -- 文件图标
 - Agila -- 主题
 - Ayu -- 主题
+- Spacegray -- 主题
 <br>
 
 - Terminal -- <kbd>Ctrl+Shift+t</kbd> 打开终端
@@ -26,7 +27,7 @@
   "parameters": ["/START", "%CWD%"]
 }
 ```
-- 
+- Emmet -- 
 
 
 ## 快捷键
