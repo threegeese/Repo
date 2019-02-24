@@ -59,6 +59,7 @@
 9. <kbd>Ctrl+鼠标选取</kbd> -- 选择多个指定位置
 10. <kbd>Shift+方向键</kbd> -- 指定选取
 11. <kbd>Ctrl+Shift+d</kbd> -- 向下复制
+12. <kbd>Home、End、PgUp、PgDn</kbd> -- 试一下就知道了:smile:
 <br>
 
 1. <kbd>Ctrl+f</kbd> -- 查找
