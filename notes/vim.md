@@ -8,6 +8,7 @@ https://www.vim.org/download.php
 
 ## 配置相关
 
+* 编码
 ```_vimrc
 set encoding=utf-8
 set langmenu=zh_CN.UTF-8
