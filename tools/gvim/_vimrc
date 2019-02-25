@@ -1,0 +1,93 @@
+source $VIMRUNTIME/vimrc_example.vim
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg1 = substitute(arg1, '!', '\!', 'g')
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg2 = substitute(arg2, '!', '\!', 'g')
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let arg3 = substitute(arg3, '!', '\!', 'g')
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      if empty(&shellxquote)
+        let l:shxq_sav = ''
+        set shellxquote&
+      endif
+      let cmd = '"' . $VIMRUNTIME . '\diff"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  let cmd = substitute(cmd, '!', '\!', 'g')
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3
+  if exists('l:shxq_sav')
+    let &shellxquote=l:shxq_sav
+  endif
+endfunction
+
+set encoding=utf-8
+set langmenu=zh_CN.UTF-8
+language message zh_CN.UTF-8
+set termencoding=utf-8
+set fileencodings=utf-8
+
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
+
+
+
+"设定 windows 下 gvim 启动时最大化
+autocmd GUIEnter * simalt ~x
+
+"去除工具栏
+set guioptions-=T
+
+"去除菜单栏
+set guioptions-=m
+
+"去除右边滚动条
+set guioptions-=r
+
+"使用配色方案
+colors torte
+
+"设置不自动换行
+set nowrap
+
+"显示行号
+set number
+
+"tab宽度为四个字符
+set tabstop=4
+
+"输入搜索内容时就显示搜索结果
+set incsearch
+
+"搜索结果高亮度显示
+set hlsearch
+
+"搜索时忽略大小写，但在有一个或以上大写字母时仍保持对大小写敏感
+set ignorecase smartcase
+
+"设置右下角标尺
+set ruler
+
+"设定光标离窗口上下边界 5 行时窗口自动滚动
+set scrolloff=5
+
+"默认区分大小写
+set noignorecase
+
+
+
+
