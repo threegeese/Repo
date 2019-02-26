@@ -36,6 +36,15 @@ source $VIMRUNTIME/menu.vim
 3. 运行```gvim```命令
 <br>
 
+
+1. 命令行模式下<kbd>Ctrl+a</kbd>按键在 SpaceVim 中被修改为了移动光标至命令行行首。
+2. 命令行模式下<kbd>Ctrl+b</kbd>按键被映射为方向键 <Left>, 用以向左移动光标。
+3. 命令行模式下<kbd>Ctrl+f</kbd>按键被映射为方向键 <Right>, 用以向右移动光标。
+4. 
+
+
+<br>
+
 以后折腾...
 
 
