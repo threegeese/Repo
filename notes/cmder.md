@@ -2,7 +2,7 @@
 
 ##
 
-```jilu
+```
 magnify -- 放大镜
 telnet towel.blinkenlights.nl -- 观看终端版星球大战
 Ctrl+[ + quit -- 退出telnet
