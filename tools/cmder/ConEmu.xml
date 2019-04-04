@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2019-04-04 20:11:48" build="190331">
+		<key name=".Vanilla" modified="2019-04-04 20:50:39" build="190331">
 			<value name="StartType" type="hex" data="00"/>
 			<value name="CmdLine" type="string" data="Ubuntu"/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -29,7 +29,7 @@
 			<value name="PopTextColorIdx" type="hex" data="10"/>
 			<value name="PopBackColorIdx" type="hex" data="10"/>
 			<value name="SingleInstance" type="hex" data="00"/>
-			<value name="QuakeStyle" type="hex" data="01"/>
+			<value name="QuakeStyle" type="hex" data="02"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
 			<value name="Update.CheckOnStartup" type="hex" data="01"/>
@@ -339,7 +339,7 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="112"/>
+			<value name="ConWnd X" type="long" data="114"/>
 			<value name="ConWnd Y" type="long" data="0"/>
 			<value name="LastMonitor" type="string" data="0,0,1366,738"/>
 			<value name="ConWnd Width" type="dword" data="0000008d"/>
